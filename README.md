@@ -4,7 +4,7 @@ GET 324 (AI & Machine Learning) Mini-Project — Laboratory Exercise 10
 **Task:** Binary image classification — Concrete Bridge Deck Crack Detection (Cracked vs Non-Cracked)
 
 ## Live App
-https://YOUR-STREAMLIT-URL-HERE.streamlit.app
+https://cv19-bridge-deck-crack-detector-ddcwv3sbg7xirmn9txwv45.streamlit.app/
 
 > **Note:** This app is hosted on Streamlit Community Cloud's free tier, which puts apps to sleep after a period of inactivity. If the link shows a "Zzzz... this app has gone to sleep" screen, simply click **"Yes, get this app back up!"** and wait 30–60 seconds for it to restart.
 
