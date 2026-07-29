@@ -1,4 +1,4 @@
-# 🌉 CV19 Bridge Deck Crack Classifier
+# 🌉 CV19 Bridge Deck Crack Detector 
 
 GET 324 (AI & Machine Learning) Mini-Project — Laboratory Exercise 10
 **Task:** Binary image classification — Concrete Bridge Deck Crack Detection (Cracked vs Non-Cracked)
@@ -19,13 +19,13 @@ This application was developed to classify concrete bridge deck surface images a
 ## Group Members (CV19)
 | Name | Registration Number | GitHub Username |
 |------|---------------------|------------------|
-| Enweme Emmanuel Okon | 22/EG/CV/1439 | |
+| Enweme Emmanuel Okon | 22/EG/CV/1439 | Emma015-collab|
 | Umana, Abasiekeme Godwin | 22/EG/CV/1409 | |
-| Ndem, Timabasi Aniefiok | 22/EG/CV/1519 | |
-| Ekong, Richard Martin | 22/EG/CV/1449 | |
-| Jacob, Godstime Thursday | 22/EG/CV/1479 | |
+| Ndem, Timabasi Aniefiok | 22/EG/CV/1519 | Timaoro|
+| Ekong, Richard Martin | 22/EG/CV/1449 | BizzyBones|
+| Jacob, Godstime Thursday | 22/EG/CV/1479 | godstimethursday73-debug|
 | Asukwo, Martin Ukpa | 22/EG/CV/1419 | |
-| Okon, Martin Victor | 22/EG/CV/1429 | |
+| Okon, Martin Victor | 22/EG/CV/1429 | mv5746908-lgtm|
 
 ## Tech Stack
 - TensorFlow / Keras (MobileNetV3Small transfer learning)
