@@ -23,9 +23,10 @@ This application was developed to classify concrete bridge deck surface images a
 | Umana, Abasiekeme Godwin | 22/EG/CV/1409 | |
 | Ndem, Timabasi Aniefiok | 22/EG/CV/1519 | Timaoro|
 | Ekong, Richard Martin | 22/EG/CV/1449 | BizzyBones|
-| Jacob, Godstime Thursday | 22/EG/CV/1479 | godstimethursday73-debug|
+| Jacob, Godstime Thursday | 22/EG/CV/1479 | godstimethursday273-debug|
 | Asukwo, Martin Ukpa | 22/EG/CV/1419 | |
 | Okon, Martin Victor | 22/EG/CV/1429 | mv5746908-lgtm|
+| Anthony Iniobong Eka | 22/EG/CV/1499 | 5279hm898p-dotcom |
 
 ## Tech Stack
 - TensorFlow / Keras (MobileNetV3Small transfer learning)
