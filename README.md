@@ -23,7 +23,7 @@ This application was developed to classify concrete bridge deck surface images a
 | Umana, Abasiekeme Godwin | 22/EG/CV/1409 | abasumana2022-cmyk |
 | Ndem Timabasi Aniefiok | 22/EG/CV/1519 | Timaoro|
 | Ebong Richard Martin | 22/EG/CV/1449 | BizzyBoness|
-| Jacob, Godstime Thursday | 22/EG/CV/1479 | godstimethursday273-debug|
+| Jacob Godstime Thursday | 22/EG/CV/1479 | godstimethursday273-debug|
 | Asukwo, Martin Ukpa | 22/EG/CV/1419 | martinusukpamus@gmail.com|
 | Okon Martin Victor | 22/EG/CV/1429 | mv5756908-lgtm|
 | Anthony Iniobong Eka | 22/EG/CV/1499 | 5279hm898p-dotcom |
