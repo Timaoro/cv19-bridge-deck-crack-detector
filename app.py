@@ -10,10 +10,11 @@ st.title("🌉 Bridge Deck Crack Detector")
 st.write("Upload a concrete bridge deck surface image to check for cracks")
 
 # Load the saved model
+@st.cache_data
 @st.cache_resource
 def load_model():
     model = tf.keras.models.load_model("models/crack_classifier.keras")
-    return model
+    return load_model
 
 # Prediction function
 # Confirmed class order: index 0 = Cracked, index 1 = Non_cracked
