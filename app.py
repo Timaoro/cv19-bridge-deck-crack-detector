@@ -31,7 +31,7 @@ model = load_model()
 
 import gc
 
-uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg", "png"])
 
 if uploaded_file:
     # Show image first
