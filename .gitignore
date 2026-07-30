@@ -8,3 +8,8 @@ env/
 *.log
 *.tmp
 .env
+*.egg
+*.egg-info/
+dist/
+build/
+*.csv
