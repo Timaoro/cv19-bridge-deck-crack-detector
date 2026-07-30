@@ -40,7 +40,7 @@ if uploaded_file:
 
     with st.spinner("Classifying..."):
         label, cracked_pct, non_cracked_pct = predict(model, img)
-        # Force garbage collection to free RAM
+        # <-- Free RAM after each image 
         gc.collect()
 
     st.write(f"**Prediction:** {label}")
