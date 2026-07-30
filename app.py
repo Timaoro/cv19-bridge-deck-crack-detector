@@ -4,11 +4,10 @@ import tensorflow as tf
 from PIL import Image
 
 # Configure the page
-st.set_page_config(page_title="Concrete Bridge Deck Crack Detector", page_icon="",
-layout="centered")
+st.set_page_config(page_title="Concrete Bridge Deck Crack Detector", page_icon="", layout="centered")
 
 st.title("🌉 Bridge Deck Crack Detector")
-st.write("Upload a concrete bridge deck surface image to check for cracks.")
+st.write("Upload a concrete bridge deck surface image to check for cracks")
 
 # Load the saved model
 @st.cache_resource
@@ -31,7 +30,7 @@ model = load_model()
 
 import gc
 
-uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg", "png"])
+uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     # Show image first
