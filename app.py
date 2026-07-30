@@ -27,6 +27,8 @@ def predict(model, pil_image):
     return label, prob_cracked * 100, prob_non_cracked * 100
 
 # Build the UI
+model = load_model()
+uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg", "jpeg", "png"])
 # Call predict() and display the prediction result
 if uploaded_file:
     try:
