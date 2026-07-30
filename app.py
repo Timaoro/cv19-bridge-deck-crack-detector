@@ -13,7 +13,7 @@ st.write("Upload a concrete bridge deck surface image to check for cracks.")
 # Load the saved model
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("models/crack_classifier.keras")
+    model = tf.keras.models.load_model("models/crack_classifier.keras") # <-- changed .h5 to .keras
     return model
 
 # Prediction function
