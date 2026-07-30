@@ -20,7 +20,7 @@ This application was developed to classify concrete bridge deck surface images a
 | Name | Registration Number | GitHub Username |
 |------|---------------------|------------------|
 | Enweme Emmanuel Okon | 22/EG/CV/1439 | Emma015-collab|
-| Umana, Abasiekeme Godwin | 22/EG/CV/1409 | abasumana2022-cmyk |
+| Umana Abasiekeme Godwin | 22/EG/CV/1409 | abasumana2022-cmyk |
 | Ndem Timabasi Aniefiok | 22/EG/CV/1519 | Timaoro|
 | Ebong Richard Martin | 22/EG/CV/1449 | BizzyBoness|
 | Jacob Godstime Thursday | 22/EG/CV/1479 | godstimethursday273-debug|
