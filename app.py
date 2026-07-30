@@ -14,7 +14,7 @@ st.write("Upload a concrete bridge deck surface image to check for cracks.")
 @st.cache_resource
 def load_model():
         model = tf.keras.models.load_model("models/crack_classifier.keras")
-    return model
+return model
 
 # Prediction function
 # Confirmed class order: index 0 = Cracked, index 1 = Non_cracked
