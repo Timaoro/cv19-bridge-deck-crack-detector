@@ -34,7 +34,7 @@ uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg",
 if uploaded_file:
     img = Image.open(uploaded_file)
     st.image(img, width=300)
-        label, cracked_pct, non_cracked_pct = predict(model, img)
+    label, cracked_pct, non_cracked_pct = predict(model, img)
     st.write(f"**Prediction:** {label}")
     st.progress(min(int(cracked_pct), 100), text=f"Cracked: {cracked_pct:.1f}%")
     st.progress(min(int(non_cracked_pct), 100), text=f"Non-Cracked: {non_cracked_pct:.1f}%")
