@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np 
 import tensorflow as tf
 from PIL import Image
+import pathlib
 
 # Configure the page
 st.set_page_config(page_title="Concrete Bridge Deck Crack Detector", page_icon="", layout="centered")
@@ -9,12 +10,11 @@ st.set_page_config(page_title="Concrete Bridge Deck Crack Detector", page_icon="
 st.title("🌉 Bridge Deck Crack Detector")
 st.write("Upload a concrete bridge deck surface image to check for cracks")
 
-# Load the saved model
-@st.cache_data
+# Load the model from the models/folder
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("models/crack_classifier.keras")
-    return load_model
+model = tf.keras.models.load_model("../models/mobilenetv3_transfer.keras")
+return model
 
 # Prediction function
 # Confirmed class order: index 0 = Cracked, index 1 = Non_cracked
@@ -28,9 +28,7 @@ def predict(model, pil_image):
 
 # Build the UI
 model = load_model()
-
 import gc
-
 uploaded_file = st.file_uploader("Upload a concrete surface image", type=["jpg", "jpeg", "png"])
 
 # Call predict() and display the prediction result
