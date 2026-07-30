@@ -13,8 +13,8 @@ st.write("Upload a concrete bridge deck surface image to check for cracks")
 # Load the model from the models/folder
 @st.cache_resource
 def load_model():
-model = tf.keras.models.load_model("../models/mobilenetv3_transfer.keras")
-return model
+    model = tf.keras.models.load_model("../models/mobilenetv3_transfer.keras")
+    return model
 
 # Prediction function
 # Confirmed class order: index 0 = Cracked, index 1 = Non_cracked
